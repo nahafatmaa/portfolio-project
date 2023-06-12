@@ -32,6 +32,32 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Home page">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="shecodes logo"
+          />
+          <img
+            src="images/logo-small.jpeg"
+            class="logo d-block d-md-none"
+            alt="shecodes logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Home Page">Home</a>
+          </li>
+          <li><a href="/about.html" title="About Page">About</a></li>
+          <li><a href="/work.html" title="Work Samples">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
@@ -49,5 +75,40 @@
         </p>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between d-none d-md-flex mb-5"
+      >
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's Work Together!</p>
+        </div>
+        <div>
+          <a href="/contact.html" title="Contact Naha" class="btn btn-branding"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:naha.fatma@hotmail.com" class="email-link"
+          >naha.fatma@hotmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.instagram.com" target="_blank" title=""
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.github.com" target="_blank" title="github"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.facebook.com" target="_blank" title="facebook">
+          <i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+      <p class="text-center mt-4">This project was coded by Naha and is</p>
+      <a href="https://github.com/nahafatmaa/portfolio-project" target="_blank"
+        >open-sourced</a
+      >
+    </footer>
   </body>
 </html>
